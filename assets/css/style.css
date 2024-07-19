@@ -46,16 +46,17 @@ img {
     background-color: #fae5d1;
 }
 
-header img{
+.logo{
     width: 100px;
     padding: 5px;
+    border-radius: 10px;
 }
 
 .center {
     justify-content: center;
 }
 
-nav ul li a {
+header nav ul li a {
     background-color: #1E1E1E;
     display: block;
     color: #fae5d1;
@@ -148,6 +149,59 @@ nav ul li a {
     margin-bottom: 80px;
 }
 
+/************************************************ FOOTER **********************************************/
+
+footer {
+    background-color: #AC7961;
+    position: relative;
+    width: 100%;
+}
+
+.footer-content {
+    padding-top: 80px;
+    padding-left: 80px;
+    color: white;
+}
+
+.logo-footer {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer-content nav ul li  {
+    list-style-type: circle;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.social-icon-container {
+    padding-top: 80px;
+}
+
+.social-icon-container p {
+    padding-left: 70px;
+}
+
+.social-icon {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.social-icon i {
+    margin-left: 25px;
+}
+
+.copyright-text {
+    color: white;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    text-align: center;
+    width: 100%;
+}
+
 @media screen and (min-width: 768px){
 
     .container-l {
@@ -176,5 +230,18 @@ nav ul li a {
     border-radius: 0 0 5px 5px;
 }
 
+
+    /******************************** FOOTER ********************************/
+
+    .social-icon-container {
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    .copyright-text {
+        text-align: end;
+        margin-bottom: 20px;
+        margin-right: 100px;
+    }
 
 }
